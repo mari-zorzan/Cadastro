@@ -10,13 +10,13 @@ public class Cadastrar {
 		
 		System.out.println("Digite seu nome: ");
 		
-		String nome = scan.nextLine();
+		String nome = scan.nextLine(); // Faz a leitura do nome
 		
        System.out.println("Digite sua idade: ");
 		
 		int idade = scan.nextInt();
 		
-		System.out.println("Seu nome é: " + nome + "\n" + "Você tem" + idade + "anos");
+		System.out.println("Seu nome Ã©: " + nome + "\n" + "VocÃª tem" + idade + "anos");
 	}
 
 }
